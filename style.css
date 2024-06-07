@@ -1,0 +1,206 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'vampire';
+    src: url('fonts/Vampire\ Wars.otf') format('opentype'),
+        url('fonts/Vampire\ Wars.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0px;
+}
+body {
+    background-color: #5b8266;
+}
+header {
+    background-image: linear-gradient(#2fa866, #063d1e);
+    padding: 50px 50px 30px 50px;
+    margin: 0%;
+    min-height: 150px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+    text-shadow: 10px 10px 10px black;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1.2em;
+    padding-bottom: 3em;
+    padding-top: 1.5em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+}
+
+a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: left;
+}
+a:hover {
+    text-decoration: underline;
+}
+nav {
+    text-align: left;
+    padding-top: 10px;
+    margin: 0px 0px -15px -40px;
+    display: block;
+}
+
+nav > a {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    padding: 1em;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.685);
+    min-width: 300px;
+    max-width: 1000px;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 0px 0px 20px 20px;
+    overflow: hidden;
+}
+main img {
+    width: 100%;
+}
+h1.conteudo {
+    font-family: 'vampire', serif;
+    color: #000000;
+    text-align: left;
+    font-size: 2em;
+    text-shadow: none;
+}
+h2.conteudo {
+    font-family: 'vampire', serif;
+    color: #000000;
+    text-align: left;
+    font-size: 1.5em;
+    padding: 0%;
+    background-image: linear-gradient(to right, #6cd36c, white 100%);
+    text-shadow: none;
+}
+
+nav > a:hover {
+    text-decoration: none;
+    transition-duration: 1s;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 2em;
+    margin: 15px 0px;
+}
+
+p::first-letter {
+    margin-left: 2em;
+}
+
+a.plink {
+    background-color: #83e1ad;
+    color: #063d1e;
+    padding: 2px 6px 2px 6px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+a.externo::after{
+    content: "\00A0\1F517";
+}
+a.plink:hover {
+    color: #1a5c37;
+}
+.linkheader {
+    font-weight: bold;
+    color: #83e1ad;
+}
+.linkheader:hover {
+    background-color: #2fa866;
+    color: #063d1e;
+    padding: 10px;
+}
+
+.theme {
+    color: #1a5c37;
+    font-weight: bold;
+}
+
+#maiorimg {
+    max-width: 300px;
+}
+
+div.youtube {
+    background-color: #063d1e;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    margin: 0px -17px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 56.4%;
+}
+.youtube > iframe {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    right: 5%;
+    left: 5%;
+    top: 5%;
+}
+#tabela {
+    background-color: #83e1ad;
+    padding: 200px;
+    margin-top: 30px;
+    border-radius: 15px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0%;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.507);
+}
+
+#tabela > h3 {
+    font-size: 1.3em;
+    background-color: #175230;
+    margin: 0px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    color: white;
+}
+#tabela > p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#tabela > ul {
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+}
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 0.9em;
+    background-color: #063d1e;
+    color: white;
+    padding: 1px;
+}
+footer > p {
+    text-align: center;
+    color: white;
+}
